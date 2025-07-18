@@ -5,7 +5,7 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "",  
+SESSION_ID: process.env.SESSION_ID || "ALI-MD~rYFiRZCT#ka1l1TU0jVJ2NmEjgRrjmdTO7DRQn4TmpF-lGFjFevc",  
 //chatbot integration 
 CHATBOT: process.env.CHATBOT || "on",
 // add your Session Id 
@@ -17,14 +17,14 @@ AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "true",
 // make true if you want auto reply on status 
 AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "*SEEN YOUR STATUS JUST NOW ALI-MD 👻*",
 // set the auto reply massage on status reply  
-WELCOME: process.env.WELCOME || "true",
+WELCOME: process.env.WELCOME || "false",
 // true if want welcome msg in groups
-GOODBYE: process.env.GOODBYE || "true",
+GOODBYE: process.env.GOODBYE || "false",
 // true if want goodbye msg in groups 
 ADMIN_EVENTS: process.env.ADMIN_EVENTS || "false",
 // make true to know who dismiss or promoted a member in group
 ANTI_LINK_KICK: process.env.ANTI_LINK_KICK || "false",
-ANTI_LINK_WARN: process.env.ANTI_LINK_WARN || "false",
+ANTI_LINK_WARN: process.env.ANTI_LINK_WARN || "true",
 ANTI_LINK_DELETE: process.env.ANTI_LINK_DELETE || "false",
 // make anti link true,false for groups
 ANTI_CALL: process.env.ANTI_CALL || "true",
